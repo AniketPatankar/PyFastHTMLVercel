@@ -1,0 +1,31 @@
+Create a a New Folder PyFastHTMLVercel in your favorite location
+
+# create a new repository on the command line
+echo "# PyFastHTMLVercel" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+# git remote add origin <remote_repository_url>
+git remote add origin https://github.com/AniketPatankar/PyFastHTMLVercel.git
+git push -u origin main
+
+
+Now create a new Project in Pycharm with name PyFastHTMLVercel (Uncheck the Create Git Repository option)
+
+Create the main.py file
+Below the Folder option there is "-o-" symbol from there add and commit all the files to Git stagging (If you have selected add by default on the popup, it will not ask you add, will add automatically)
+
+
+To move changes from stagging to GitHub
+
+git push origin <branch_name>
+Example :
+git push origin main
+
+
+
+
+
+pip install python-fasthtml
+python.exe -m pip install --upgrade pip
